@@ -1,50 +1,29 @@
+# 👋 Hi, I'm Haseeb Ali
 
-#include <iostream>
-#include <cmath>
-using namespace std;
+💻 **BSCS Student | Developer | Tech Enthusiast**
 
-int main() {
-    double a, b, result;
-    char op, again;
+I’m passionate about creating logical and futuristic projects using C++, Arduino, and digital electronics. My focus is on solving real-world problems with smart and efficient code.
 
-    cout << "=== Simple Calculator ==="<<endl;
-    cout << "Operations: +  -  *  /  ^  s(sqrt of a)  %"<<endl;
+---
 
-    do {
-        cout << "\nEnter first number: ";
-        cin >> a;
+### 🚀 Current Projects
+- 🔢 **Fully Functional Calculator** — A C++ project performing advanced mathematical operations.
+- 🤖 Exploring Arduino-based automation and sensor integration.
 
-        cout << "Enter operation: ";
-        cin >> op;
+---
 
-        if (op == 's') {
-            if (a < 0) cout << "Error: Negative number."<<endl;
-            else cout << "sqrt(" << a << ") = " << sqrt(a) << endl;
-        } else {
-            cout << "Enter second number: ";
-            cin >> b;
+### 🧠 Skills
+- C++ / Python / Arduino  
+- Digital Logic Design  
+- Object-Oriented Programming  
+- Embedded Systems  
 
-            if (op == '+') result = a + b;
-            else if (op == '-') result = a - b;
-            else if (op == '*') result = a * b;
-            else if (op == '/') result = (b == 0) ? NAN : a / b;
-            else if (op == '^') result = pow(a, b);
-            else if (op == '%') result = fmod(a, b);
-            else { cout << "Invalid operation.\n"; continue; }
+---
 
-            if (op == '/' && b == 0)
-                cout << "Error: Division by zero."<<endl;
-            else if (op == '%' && b == 0)
-                cout << "Error: Modulo by zero."<<endl;
-            else
-     cout << a << " " << op << " " << b << " = " << result << endl;
-        }
+### 🌐 Connect with Me
+- 💼 [(https://www.linkedin.com/in/haseeb-ali-556a04365?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app)  ]
+- 📧 Email: haseebali44435@gmail.com  
 
-        cout << "Do another Enter (y) and Exit (n) ? (y/n): ";
-        cin >> again;
-    } while (again == 'y' || again == 'Y');
+---
 
-    cout << "Goodbye."<<endl;
-    return 0;
-}
-    
+> “Code is like humor. When you have to explain it, it’s bad.” — Cory House
